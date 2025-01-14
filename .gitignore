@@ -1,2 +1,9 @@
+# Node.js
 node_modules/
+
+# Electron build output
 dist/
+
+# Add package-lock.json and package.json to ignore list
+package-lock.json
+package.json
