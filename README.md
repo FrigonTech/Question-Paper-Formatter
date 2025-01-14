@@ -1,4 +1,5 @@
 # Question Paper Formatter (Indian School Format)
+# [![DOWNLOAD HERE](https://img.shields.io/badge/Download-Here-blue)](https://github.com/FrigonTech/Question-Paper-Formatter/releases/tag/1.0)
 throw away the hassle to type or copy-paste and make the whole question paper and then format it according to your needs, with our HTML/CSS/JAVA based app which can run on any windows system tailored to your needs, we've completely eliminated this inconsistency issue.
 
 Refer to the demonstration video below to get a glimpse at the functionality and ease opf access this app delivers!
