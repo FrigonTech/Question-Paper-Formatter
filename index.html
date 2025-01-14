@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Paper Generator - AnchoR Digital by AnchoR-X Enterprises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <table id="mainTable">
+            <tbody>
+                <tr>
+                    <!--School Name-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p>School's Name</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText1 textbox" style="width: 90%" placeholder="Enter School Name"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+    
+                    <!--School Address/ Landmark-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p>School's Address</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText1 textbox" style="width: 90%" placeholder="Enter School Address"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    
+    
+                    <!--Exam Name-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p>Exam Name</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText1 textbox" style="width: 90%" placeholder="Enter Exam Name"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    
+    
+                    <!--Class-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p>Class</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText1 textbox" style="width: 100px" placeholder="Enter Class (in numbers)"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    
+    
+                    <!--Subject-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p>Subject</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText1 textbox" style="width: 100px" placeholder="Enter Subject"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    
+    
+                    <!--time and marks-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p>Duration and maximum marks obtainable for the exam</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude dur textbox" style="width: 100px" placeholder="Enter Duration"></textarea>
+                                <div style="width: 90px; flex-grow: 0; flex-shrink: 1 auto"></div>
+                                <textarea class="docxinclude totm textbox" style="width: 100px" placeholder="Enter Max Marks"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    
+    
+                    <!--General Instructions-->
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <p class="docxinclude docxText3">General Instructions:-</p>                            
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px; border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                            
+                                <textarea class="docxinclude docxText5 textbox" style="width: 90%" placeholder="Enter instruction 1"></textarea>
+                            </div>
+                                                        
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px; border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText5 textbox" style="width: 90%" placeholder="Enter instruction 2"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-bottom: 0px; border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText5 textbox" style="width: 90%" placeholder="Enter instruction 3"></textarea>
+                            </div>                                                   
+                        </td>
+                    </tr>
+                    <tr class="fixedplace">
+                        <td style="border-top: 0px;">
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText5 textbox" style="width: 90%" placeholder="Enter instruction 4"></textarea>                            
+                            </div>                                                    
+                        </td>
+                    </tr>
+    
+                    
+    
+                    <!--add new row-->
+                    <tr id="adderRow">
+                        <td style="justify-content: center;">
+                            <button onclick="addNewRow()">Add</button>
+                            <button onclick="generateWordFile()">Generate</button>
+                        </td>
+                    </tr>                
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzip/3.0.1/pizzip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docxtemplater@3.16.3/build/docxtemplater.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+    <script>
+        
+        let draggedRow = null;
+        let rows = [];
+        const { ipcRenderer } = require('electron');
+
+        // Optimize addNewRow function
+        function addNewRow() {
+            const tbody = document.querySelector('tbody');
+            const adderRow = document.getElementById('adderRow');
+            const newRow = document.createElement('tr');
+            newRow.className = 'row';
+            
+            // Use template literal for better performance
+            newRow.innerHTML = `
+                <td>
+                    <div style="display: flex; flex-direction: row; width: 100%; flex-wrap: nowrap; justify-content: flex-start;">
+                        <div class="handle">☰</div>
+                        <select class="type-select">
+                            <option>Section</option>
+                            <option>Question Heading</option>
+                            <option>'N' Mark Ques</option>
+                        </select>
+                        <button onclick="applySelection(this)">Apply</button>
+                    </div>
+                </td>
+            `;
+
+            tbody.insertBefore(newRow, adderRow);
+            
+            // Add drag handler directly
+            const handle = newRow.querySelector('.handle');
+            if (handle) {
+                handle.addEventListener('mousedown', (e) => {
+                    draggedRow = newRow;
+                    newRow.classList.add('dragging');
+                });
+            }
+        }
+
+        function deleteElement(button) {
+            const mcqOption = button.closest('.mcq-option');
+            const mainRow = button.closest('tr');
+            
+            if (mcqOption) {
+                // If it's an MCQ option, just delete the option
+                mcqOption.remove();
+            } else if (mainRow) {
+                // If it's a main row, remove it and all its content
+                const container = mainRow.querySelector('.mcq-container');
+                if (container) {
+                    // This was an MCQ row, remove all related content
+                    mainRow.remove();
+                } else {
+                    // Regular row or other type
+                    mainRow.remove();
+                }
+            } else {
+                // For any other elements (like image upload container)
+                button.parentElement.remove();
+            }
+        }
+
+        // Function to create option container HTML - keep this at the top level
+        function createOptionContainer(index) {
+            return `
+                <div class="option-container">
+                    <textarea class="docxinclude docxText5 textbox option-letter" style="resize:none;" readonly>${String.fromCharCode(65 + index)}. </textarea>
+                    <textarea class="docxinclude docxText5 textbox option-input" placeholder="Enter extra options for MCQ type questions or sub parts..."></textarea>
+                    <button class="delete-btn" style="margin-left: auto;" onclick="deleteOptionContainer(this)">×</button>
+                </div>
+            `;
+        }
+
+        // Function to delete option container and update question numbers 
+        function deleteOptionContainer(button) { 
+            // Remove the closest option-container 
+            button.closest('.option-container').remove(); 
+            // Reassign question numbers 
+            updateQuestionNumbers(); 
+        }
+
+        // Function to update question numbers 
+        function updateQuestionNumbers() { 
+            // Get all option containers 
+            const optionContainers = document.querySelectorAll('.option-container'); 
+            // Iterate over them and update the question numbers 
+            optionContainers.forEach((container, index) => { 
+                const questionNumber = container.querySelector('.option-letter'); 
+                questionNumber.value = `Q${index + 1}. `; 
+                const questionInput = container.querySelector('.option-input'); 
+                questionInput.placeholder = `Enter question ${index + 1}...`; 
+            }); 
+        }
+
+        function applySelection(button) {
+            const row = button.closest('tr');
+            const select = row.querySelector('select');
+            const selectedValue = select.value;
+            const td = row.querySelector('td');
+            console.log('Applying selection:', selectedValue);
+
+            if (selectedValue === 'Image') {
+                // Create image upload buttons
+                const imageContent = document.createElement('div');
+                imageContent.className = 'image-upload';
+                imageContent.innerHTML = `
+                    <div style="display: flex; align-items: center;">
+                        <div class="handle">☰</div>
+                        <button class="button" style="height: 69px;" onclick="uploadImage('file')">Upload from PC</button>
+                        <button class="button" style="height: 69px;" onclick="uploadImage('url')">Insert URL</button>                        
+                        <textarea id="image-status" style="flex: 1 1 auto; margin-left: 29px" class="status-textbox" readonly>Current image: None</textarea>
+                        <button class="delete-btn" style="margin-left: 19;" onclick="deleteElement(this)">×</button>
+                    </div>
+                `;
+                td.innerHTML = '';
+                td.appendChild(imageContent);
+
+                // Add drag functionality to the new handle
+                const handle = td.querySelector('.handle');
+                addDragHandler(handle, row);
+
+            } else if(selectedValue === "'N' Mark Ques") {
+                // Create container div
+                const container = document.createElement('div');
+                container.className = 'input-container';
+                
+                // Add unique identifier
+                const uniqueId = 'options-' + Date.now();
+                container.setAttribute('data-container-id', uniqueId);
+                
+                container.innerHTML = `
+                    <tr>
+                        <td>
+                            <div class="item-container">
+                                <div class="handle">☰</div>
+                                <textarea class="docxinclude docxText3 textbox" style="width: 90%" placeholder="Enter Question Here..."></textarea>
+                                <select class="docxinclude no-of-ques type-select questions-select" style="max-width: 100px;">
+                                    <option>Sub Parts/ Options/ Choices</option>
+                                    ${Array.from({length: 19}, (_, i) => `
+                                        <option value="${i + 1}">${i + 1}</option>
+                                    `).join('')}
+                                    <option value="20" selected>20</option>
+                                </select>
+                                <button class="delete-btn" onclick="deleteElement(this)">×</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="height: 9px;"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="options-wrapper" style="display: flex; flex-direction: column; gap: 10px;">
+                                ${Array.from({length: 4}, (_, i) => createOptionContainer(i)).join('')}
+                            </div>
+                        </td>
+                    </tr>
+                `;
+
+                // Add event listener to questions select
+                const questionsSelect = container.querySelector('.questions-select');
+                questionsSelect.addEventListener('change', function(e) {
+                    const selectedCount = parseInt(e.target.value);
+                    if (!isNaN(selectedCount)) {
+                        // Find the options wrapper within this container
+                        const currentContainer = e.target.closest('.input-container');
+                        const optionsWrapper = currentContainer.querySelector('.options-wrapper');
+                        optionsWrapper.innerHTML = Array.from(
+                            {length: selectedCount}, 
+                            (_, i) => createOptionContainer(i)
+                        ).join('');
+                    }
+                });
+
+                // Clear existing content and append new container
+                td.innerHTML = '';
+                td.appendChild(container);
+
+                // Add drag functionality to the new handle
+                const handle = td.querySelector('.handle');
+                addDragHandler(handle, row);
+            } else if(selectedValue === 'Section') {
+                // Create MCQ question and options
+                const sectionContent = document.createElement('div');
+                sectionContent.className = 'row';
+                
+                // Create a table for the MCQ layout
+                sectionContent.innerHTML = `
+                    <tr>
+                        <td>
+                            <div class="item-container">                                
+                                <div class="handle">☰</div>
+                                <p>Enter Section (A,B,C,D)</p>
+                                <button class="delete-btn" onclick="deleteElement(this)">×</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="item-container" style="justify-content: center;">
+                                <textarea class="docxinclude docxText2 textbox" style="width: 500px" placeholder="Enter Section"></textarea>
+                            </div
+                        </td>
+                    </tr>
+                `;
+                td.innerHTML = '';
+                td.appendChild(sectionContent);
+
+                // Add drag functionality to the new handle
+                const handle = td.querySelector('.handle');
+                addDragHandler(handle, row);
+            } else if(selectedValue === "Question Heading") {
+                // Create MCQ question container
+                const qheadContent = document.createElement('div');
+                qheadContent.className = 'row question-container';
+                
+                qheadContent.innerHTML = `
+                    <div class="item-container">                                
+                        <div class="handle">☰</div>
+                        <p>Enter Question Heading (Multiple Choice Questions, Answer the following)</p>
+                        <textarea class="docxinclude qhead textbox" style="width: 90%;" 
+                            placeholder="Enter Section"></textarea>
+                        <select class="docxinclude qmarks type-select marks-select" style="max-width: 100px;">
+                            <option>Marks</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4" selected>4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select class="docxinclude qnos type-select questions-select" style="max-width: 100px;">
+                            <option>Questions</option>
+                            ${Array.from({length: 20}, (_, i) => `
+                                <option value="${i + 1}" ${i === 19 ? 'selected' : ''}>${i + 1}</option>
+                            `).join('')}
+                        </select>
+                        <button class="delete-btn" onclick="deleteElement(this)">×</button>
+                    </div>
+                `;
+
+                // Clear and append to container
+                td.innerHTML = '';
+                td.appendChild(qheadContent);
+
+                // Add drag functionality
+                const handle = td.querySelector('.handle');
+                addDragHandler(handle, row);
+            } else {
+
+            }
+        }
+
+        let selectedImage = null; 
+        function uploadImage(type) { 
+            if (type === 'file') { 
+                const input = document.createElement('input'); 
+                input.type = 'file'; 
+                input.accept = 'image/*'; 
+                input.click(); 
+                input.onchange = (e) => { 
+                    const file = e.target.files[0]; 
+                    selectedImage = file; // Update the textbox to show the current image status 
+                    updateImageStatus(`File selected: ${file.name}`); 
+                }; 
+            } else { 
+                const url = prompt('Enter image URL:'); 
+                if (url) { 
+                    selectedImage = url; // Update the textbox to show the current image status 
+                    updateImageStatus(`Image URL: ${url}`); 
+                } 
+            } 
+        } 
+        
+        function updateImageStatus(status) {
+            const statusTextbox = document.getElementById('image-status'); 
+            if (statusTextbox) { 
+                statusTextbox.value = status; 
+            }
+        }
+
+        // Separate function to add drag handlers
+        function addDragHandler(handle, row) {
+            handle.addEventListener('mousedown', (e) => {
+                draggedRow = row;
+                row.classList.add('dragging');
+                rows = Array.from(document.querySelectorAll('tr:not(#adderRow):not(.fixedplace)'));
+                rows.forEach(row => {
+                    row.initialPosition = row.getBoundingClientRect().top;
+                });
+            });
+        }
+
+        // Drag and drop event listeners
+        document.addEventListener('mousemove', (e) => {
+            if (!draggedRow) return;
+            const rows = Array.from(document.querySelectorAll('tr:not(#adderRow):not(.fixedplace)'));
+            rows.forEach(row => row.classList.remove('drop-target'));
+            const targetRow = rows.find(row => {
+                const rect = row.getBoundingClientRect();
+                return e.clientY >= rect.top && e.clientY <= rect.bottom;
+            });
+            if (targetRow && targetRow !== draggedRow) {
+                targetRow.classList.add('drop-target');
+            }
+        });
+
+        document.addEventListener('mouseup', (e) => {
+            if (!draggedRow) return;
+            const rows = Array.from(document.querySelectorAll('tr:not(#adderRow):not(.fixedplace)'));
+            const targetRow = rows.find(row => row.classList.contains('drop-target'));
+            if (targetRow && targetRow !== draggedRow) {
+                const tbody = document.querySelector('tbody');
+                const targetIndex = rows.indexOf(targetRow);
+                const draggedIndex = rows.indexOf(draggedRow);
+                if (draggedIndex < targetIndex) {
+                    tbody.insertBefore(draggedRow, targetRow.nextSibling);
+                } else {
+                    tbody.insertBefore(draggedRow, targetRow);
+                }
+            }
+            draggedRow.classList.remove('dragging');
+            rows.forEach(row => row.classList.remove('drop-target'));
+            draggedRow = null;
+        });
+
+        //function generateWordFile() {
+            // Get all elements with the class name 'docxinclude' 
+            //const docxIncludeElements = document.querySelectorAll('.docxinclude'); 
+            
+            // Count the number of elements 
+            //const count = docxIncludeElements.length; 
+            
+            // Iterate through all docxinclude elements 
+            //docxIncludeElements.forEach(element => { 
+                // Check for elements with '{docxinclude-classes}' inside 
+                //const docxTEXT1 = element.querySelectorAll('.docxText1'); //text 1: bold; centered; 18pt. (school name, school address)
+                //const docxTEXT2 = element.querySelectorAll('.docxText2'); //text 2: bold; underlined; centerd; 16pt. (Section)
+                //const docxTEXT3 = element.querySelectorAll('.docxText3'); //text 3: bold; left; 14pt. (time, marks, general instructions)
+                //const docxTEXT4 = element.querySelectorAll('.docxText4'); //text 4: left; 10pt. (exam name, class, subject)
+                //const docxTEXT5 = element.querySelectorAll('.docxText5'); //text 5: left; 12pt. (questions, instructions)
+                //const docxText6 = element.querySelectorAll('.docxText6'); //text 6: bold; left; 12pt. (question heading and marking structure)
+                //const dur = element.querySelectorAll('.dur'); //duration of exam.
+                //const totm = element.querySelectorAll('.totm'); //total marks obtainable.
+                //const no_of_quess = element.querySelectorAll('.no-of-ques'); //number of questions.
+                //const marks_of_ques = element.querySelectorAll('.marks-of-ques'); //marks of questions.
+                
+            //});
+        //}
+
+        const { saveAs } = require('file-saver'); 
+        const { Document, Packer, Paragraph, TextRun, TabStopType } = require('docx');
+
+        function validateContent() {
+            const schoolName = document.querySelector('textarea[placeholder="Enter School Name"]').value;
+            const examName = document.querySelector('textarea[placeholder="Enter Exam Name"]').value;
+            const subject = document.querySelector('textarea[placeholder="Enter Subject"]').value;
+            const duration = document.querySelector('textarea[placeholder="Enter Duration"]').value;
+            const maxMarks = document.querySelector('textarea[placeholder="Enter Max Marks"]').value;
+
+            if (!schoolName.trim()) {
+                alert('Please enter school name');
+                return false;
+            }
+            if (!examName.trim()) {
+                alert('Please enter exam name');
+                return false;
+            }
+            if (!subject.trim()) {
+                alert('Please enter subject');
+                return false;
+            }
+            if (!duration.trim()) {
+                alert('Please enter duration');
+                return false;
+            }
+            if (!maxMarks.trim()) {
+                alert('Please enter maximum marks');
+                return false;
+            }
+            return true;
+        }
+
+        function extractContent() {
+            const contentArray = [];
+            let hasDurTotm = false;
+            let hasProcessedMarks = new Set();
+            let questionNumber = 1;
+
+            // Fixed content extraction remains unchanged
+            const fixedRows = document.querySelectorAll('.fixedplace');
+            fixedRows.forEach(row => {
+                const elements = row.querySelectorAll('.docxinclude');
+                elements.forEach(element => {
+                    let content = element.tagName.toLowerCase() === 'textarea' ? element.value : element.textContent;
+
+                    if (!content.trim()) return;
+
+                    let format = {};
+
+                    if ((element.classList.contains('dur') || element.classList.contains('totm')) && !hasDurTotm) {
+                        const durElement = element.closest('.item-container').querySelector('.dur');
+                        const totmElement = element.closest('.item-container').querySelector('.totm');
+
+                        if (durElement && totmElement) {
+                            const durText = durElement.value.trim();
+                            const totmText = totmElement.value.trim();
+
+                            if (durText && totmText) {
+                                const formattedTexts = formatDurTotm(durText, totmText);
+                                hasProcessedMarks.add(totmText);
+                                contentArray.push({
+                                    leftText: formattedTexts.leftText,
+                                    rightText: formattedTexts.rightText,
+                                    format: { size: 24, bold: true },
+                                    isDurTotmLine: true
+                                });
+                                hasDurTotm = true;
+                                return;
+                            }
+                        }
+                    }
+
+                    if (hasProcessedMarks.has(content)) return;
+
+                    if (element.classList.contains('docxText1')) {
+                        format = { bold: true, alignment: 'center', size: 36 };
+                    } else if (element.classList.contains('docxText2')) {
+                        format = { bold: true, underline: true, alignment: 'center', size: 32 };
+                    } else if (element.classList.contains('docxText3')) {
+                        format = { bold: true, alignment: 'left', size: 28 };
+                    } else if (element.classList.contains('docxText4')) {
+                        format = { alignment: 'left', size: 28 };
+                    } else if (element.classList.contains('docxText5')) {
+                        format = { alignment: 'left', size: 24 };
+                    }
+
+                    contentArray.push({
+                        text: content,
+                        format: format,
+                        isDurTotmLine: false
+                    });
+                });
+            });
+
+            // Dynamic content extraction
+            const dynamicRows = document.querySelectorAll('tr:not(.fixedplace):not(#adderRow)');
+
+            dynamicRows.forEach(row => {
+                // Section handling
+                const sectionTextarea = row.querySelector('.docxText2');
+                if (sectionTextarea && sectionTextarea.value.trim()) {
+                    contentArray.push({
+                        text: sectionTextarea.value,
+                        format: {
+                            bold: true,
+                            underline: true,
+                            alignment: 'center',
+                            size: 28,
+                            spacing: { before: 400, after: 200 }
+                        }
+                    });
+                    return;
+                }
+
+                // MCQ handling
+                const mcqQuestion = row.querySelector('textarea.textbox:not(.option-letter):not(.option-input):not(.qhead):not(.qmarks):not(.qnos)');
+                if (mcqQuestion && mcqQuestion.value.trim()) {
+                    contentArray.push({
+                        text: `Q${questionNumber}. ${mcqQuestion.value}`,
+                        format: {
+                            size: 24,
+                            spacing: { before: 200, after: 200 }
+                        }
+                    });
+
+                    const optionsDiv = row.querySelector('div[style*="flex-direction: column"]');
+                    if (optionsDiv) {
+                        const optionContainers = optionsDiv.querySelectorAll('.option-container');
+                        optionContainers.forEach((container, index) => {
+                            const optionInput = container.querySelector('.option-input');
+                            if (optionInput && optionInput.value.trim()) {
+                                contentArray.push({
+                                    text: `${String.fromCharCode(65 + index)}) ${optionInput.value}`,
+                                    format: {
+                                        size: 24,
+                                        indent: { left: 720 },
+                                        spacing: { before: 100, after: 100 }
+                                    }
+                                });
+                            }
+                        });
+                    }
+                    questionNumber++;
+                    return;
+                }
+
+                // N Mark Questions handling
+                const nMarkContainer = row.querySelector('.input-container');
+                if (nMarkContainer) {
+                    const heading = nMarkContainer.querySelector('.docxText3');
+                    const marksSelect = nMarkContainer.querySelector('.marks-select');
+
+                    if (heading && marksSelect && heading.value.trim() && marksSelect.value !== 'Marks') {
+                        contentArray.push({
+                            text: `${heading.value.trim()} (${marksSelect.value} marks each)`,
+                            format: {
+                                bold: true,
+                                size: 24,
+                                spacing: { before: 400, after: 200 }
+                            }
+                        });
+
+                        const questions = nMarkContainer.querySelectorAll('.option-input');
+                        questions.forEach(question => {
+                            if (question.value.trim()) {
+                                contentArray.push({
+                                    text: `Q${questionNumber}. ${question.value}`,
+                                    format: {
+                                        size: 24,
+                                        spacing: { before: 200, after: 200 }
+                                    }
+                                });
+                                questionNumber++;
+                            }
+                        });
+                    }
+                    return;
+                }
+
+                // First, modify the Question Heading handling in extractContent
+                const qheadingTextarea = row.querySelector('.qhead');
+                const qmarksSelect = row.querySelector('.qmarks');
+                const qnosSelect = row.querySelector('.qnos');
+                                    
+                if (qheadingTextarea && qmarksSelect && qnosSelect && 
+                    qheadingTextarea.value.trim() &&
+                    qmarksSelect.value !== 'Marks' && 
+                    qnosSelect.value !== 'Questions') {
+                        
+                    const qheadingText = qheadingTextarea.value.trim();
+                    const qmarks = parseInt(qmarksSelect.value);
+                    const qnos = parseInt(qnosSelect.value);
+                    const total = qmarks * qnos;
+                    
+                    // Create special heading object
+                    contentArray.push({
+                        type: 'heading',  // Add type to identify heading
+                        leftText: qheadingText,
+                        rightText: `(${qmarks} × ${qnos} = ${total})`,
+                        format: {
+                            size: 24,
+                            bold: true,
+                            spacing: { before: 400, after: 200 }
+                        }
+                    });
+                    return;
+                    }
+
+                // Image handling
+                const imageStatus = row.querySelector('#image-status');
+                if (imageStatus && !imageStatus.value.includes('None')) {
+                    contentArray.push({
+                        text: '[Image Placeholder]',
+                        format: {
+                            alignment: 'center',
+                            spacing: { before: 200, after: 200 }
+                        }
+                    });
+                }
+            });
+
+            return contentArray;
+        }
+
+
+        function formatDurTotm(durText, totmText) {
+            const formattedDurText = durText.toLowerCase().includes('duration') ? 
+                durText : 
+                `Duration: ${durText} Hrs`;
+            
+            const formattedTotmText = totmText.toLowerCase().includes('marks') ? 
+                totmText.trim() : 
+                `Maximum Marks: ${totmText}`;
+            
+            return {
+                leftText: formattedDurText,
+                rightText: formattedTotmText
+            };
+        }
+
+        function generateDocx(contentArray) {
+            try {
+                const doc = new Document({
+                    sections: [{
+                        properties: {},
+                        children: contentArray.map(item => {
+                            if (item.isDurTotmLine || item.isQHeadingLine) {
+                                // Create a paragraph with tab-aligned content
+                                const paragraph = new Paragraph({
+                                    children: [
+                                        new TextRun({
+                                            text: item.leftText,
+                                            size: item.format.size,
+                                            bold: item.format.bold,
+                                            font: 'Times New Roman'
+                                        }),
+                                        new TextRun({
+                                            text: '\t',  // Tab character for spacing
+                                            font: 'Times New Roman'
+                                        }),
+                                        new TextRun({
+                                            text: item.rightText,
+                                            size: item.format.size,
+                                            bold: item.format.bold,
+                                            font: 'Times New Roman'
+                                        })
+                                    ],
+                                    tabStops: [
+                                        {
+                                            type: TabStopType.RIGHT,
+                                            position: 9026  // Position for right alignment
+                                        }
+                                    ],
+                                    spacing: {
+                                        before: 200,
+                                        after: 200
+                                    }
+                                });
+                                return paragraph;
+                            }
+                            // Special handling for headings
+                            else if (item.type === 'heading') {
+                                return new Paragraph({
+                                    children: [
+                                        new TextRun({
+                                            text: item.leftText,
+                                            bold: true,
+                                            size: item.format.size,
+                                            font: 'Times New Roman'
+                                        }),
+                                        new TextRun({
+                                            text: '\t',  // Tab for spacing
+                                            font: 'Times New Roman'
+                                        }),
+                                        new TextRun({
+                                            text: item.rightText,
+                                            bold: true,
+                                            size: item.format.size,
+                                            font: 'Times New Roman'
+                                        })
+                                    ],
+                                    tabStops: [
+                                        {
+                                            type: TabStopType.RIGHT,
+                                            position: 9026
+                                        }
+                                    ],
+                                    spacing: item.format.spacing
+                                });
+                            }
+                             else {
+                                // Regular content handling
+                                return new Paragraph({
+                                    children: [
+                                        new TextRun({
+                                            text: item.text,
+                                            bold: item.format.bold,
+                                            underline: item.format.underline,
+                                            size: item.format.size,
+                                            font: 'Times New Roman'
+                                        })
+                                    ],
+                                    alignment: item.format.alignment,
+                                    indent: item.format.indent,
+                                    spacing: item.format.spacing || { before: 200, after: 200 }
+                                });
+                            }
+                        })
+                    }]
+                });
+
+                Packer.toBlob(doc).then(blob => {
+                    saveAs(blob, "question_paper.docx");
+                    console.log('Document generated successfully!');
+                    alert('Document generated successfully!');
+                }).catch(error => {
+                    console.error('Error saving document:', error);
+                    alert('Error saving document: ' + error.message);
+                });
+
+            } catch (error) {
+                console.error('Error generating document:', error);
+                alert('Error generating document: ' + error.message);
+            }
+        }
+
+        function renumberQuestions() {
+            let questionNumber = 1;
+            const rows = Array.from(document.querySelectorAll('tr:not(#adderRow):not(.fixedplace):not(.qhead):not(.qmarks):not(.qnos)'));
+            
+            rows.forEach(row => {
+                const questionText = row.querySelector('.option-letter');
+                if (questionText) {
+                    questionText.value = `Q${questionNumber}. `;
+                    questionNumber++;
+                }
+            });
+        }
+
+        // Modify deleteElement function to include renumbering
+        function deleteElement(button) {
+            const mcqOption = button.closest('.mcq-option');
+            const mainRow = button.closest('tr');
+            
+            if (mcqOption) {
+                mcqOption.remove();
+            } else if (mainRow) {
+                const container = mainRow.querySelector('.mcq-container');
+                if (container) {
+                    mainRow.remove();
+                } else {
+                    mainRow.remove();
+                }
+            } else {
+                button.parentElement.remove();
+            }
+            
+            renumberQuestions(); // Renumber after deletion
+        }
+
+        function generateWordFile() {
+            try {
+                if (!validateContent()) {
+                    return;
+                }
+                
+                const contentArray = extractContent();
+                console.log('Extracted content:', contentArray);
+                
+                if (contentArray.length === 0) {
+                    alert('No content found to generate document. Please add some questions.');
+                    return;
+                }
+                
+                generateDocx(contentArray);
+            } catch (error) {
+                console.error('Error in generate word file:', error);
+                alert('An error occurred while generating the file. Please check your inputs and try again.');
+            }
+        }
+    </script>
+</body>
+</html>
