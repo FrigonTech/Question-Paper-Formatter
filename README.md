@@ -1,8 +1,7 @@
 # Question Paper Formatter (Indian School Format)
 throw away the hassle to type or copy-paste and make the whole question paper and then format it according to your needs, with our HTML/CSS/JAVA based app which can run on any windows system tailored to your needs, we've completely eliminated this inconsistency issue.
 
-https://github.com/user-attachments/assets/e5af3e9d-23da-4dc8-be0f-57a9d6f12019
-
+https://github.com/user-attachments/assets/70b2adb1-6237-4450-b7d3-1aca63849fd1
 
 
 ## why use our app? 
