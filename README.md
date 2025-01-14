@@ -2,6 +2,8 @@
 throw away the hassle to type or copy-paste and make the whole question paper and then format it according to your needs, with our HTML/CSS/JAVA based app which can run on any windows system tailored to your needs, we've completely eliminated this inconsistency issue.
 
 
+https://github.com/user-attachments/assets/3afe6b04-3c44-4e68-b34c-b5c82331a934
+
 
 ## why use our app? 
 1. With our app just copy-paste or type your questions, school name, etc. in input specific fields and press generate button to get a already formatted word document in your PC in milliseconds.
